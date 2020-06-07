@@ -1,0 +1,70 @@
+
+@media(max-width:900px){
+    /*home**/
+    #page-home{
+        background-position-x: 70vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a {
+        position: absolute;
+        bottom: 36px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home main{
+        align-items: center;
+    }
+    /*create point*/
+    #page-create-point form{
+        width: 90vw;
+    }
+    .field input, .field select {
+        width: 70vw;
+    }
+    .field-group{
+        padding: 0px;
+        width:  70vw;
+    }
+    fieldset .field-group:nth-child(2) .field:nth-child(2){
+        position: relative;
+        top:86px;
+        left: -75vw;
+    }
+    fieldset .field-group:nth-child(3){
+        margin-top: 80px;
+    }
+    fieldset .field-group:nth-child(3) .field:nth-child(2) {
+        position: relative;
+        margin: 0px;
+        top:86px;
+        left: -70vw;
+    }    
+    fieldset .field-group:nth-child(4) .field:nth-child(1) {
+        position: relative;
+        top:80px;
+    }
+    fieldset .field-group:nth-child(4) .field:nth-child(2) {
+        position: relative;
+        top:180px;
+        left: -76vw;
+    }
+    fieldset:nth-child(3){
+      margin-top: 150px;
+    }
+    #page-create-point form fieldset .items-grid{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media(min-width:1700px){
+    #page-home{
+        background-position-x: 40vw;
+    }
+}
+@media(max-height:760px){
+    #page-home{
+        background-position-y: 200px;
+    }
+}
