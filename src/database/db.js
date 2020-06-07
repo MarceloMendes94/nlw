@@ -46,12 +46,12 @@ db.serialize(()=>{
 
 
     //deletar dados de tabela
-    // db.run(`DELETE FROM places WHERE id=?`,[6], function(err){
-    //     if(err){
-    //         return console.log(err)
-    //     }
-    //     console.log("registro deletado com sucesso")
-    // })
+    db.run(`DELETE FROM places WHERE id=?`,[8], function(err){
+        if(err){
+            return console.log(err)
+        }
+        console.log("registro deletado com sucesso")
+    })
 })
 
 module.exports=db
